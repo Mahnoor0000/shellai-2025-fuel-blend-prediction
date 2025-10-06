@@ -14,7 +14,7 @@ Given fuel blends composed of 5 base components and their batch properties (COA)
 - Submission: **500 × 10 CSV** with columns `BlendProperty1,...,BlendProperty10` and no ID
 
 ---
-## Approach (high level)
+## Approach 
 1. **EDA**: shape, types, ranges, correlations, target zero checks (important for MAPE).
 2. **Preprocessing**:  
    - **Scaling** with `StandardScaler`  
