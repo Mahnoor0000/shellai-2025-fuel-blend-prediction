@@ -1,4 +1,3 @@
-# shellai-2025-fuel-blend-prediction
 
 # Shell.ai 2025 — Fuel Blend Properties Prediction
 
@@ -7,7 +6,7 @@ Built for the **Shell.ai Hackathon for Sustainable & Affordable Energy 2025**.
 
 ---
 
-## 📌 Problem
+## Problem
 Given fuel blends composed of 5 base components and their batch properties (COA), predict the final blend properties:
 - Inputs: **55 features** → `5` blend composition columns + `50` component property columns (`Component{1..5}_Property{1..10}`)
 - Targets: **10 outputs** → `BlendProperty1 ... BlendProperty10`
@@ -15,7 +14,7 @@ Given fuel blends composed of 5 base components and their batch properties (COA)
 - Submission: **500 × 10 CSV** with columns `BlendProperty1,...,BlendProperty10` and no ID
 
 ---
-## 🔍 Approach (high level)
+## Approach (high level)
 1. **EDA**: shape, types, ranges, correlations, target zero checks (important for MAPE).
 2. **Preprocessing**:  
    - **Scaling** with `StandardScaler`  
